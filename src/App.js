@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <p>React here!!!!</p>
+      <p>React here!</p>
     </div>
   );
 };

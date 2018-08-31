@@ -1,5 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
-
+var path = require('path');
 module.exports = {
     module: {
         rules: [
@@ -42,5 +42,10 @@ module.exports = {
         template: "./src/index.html",
         filename: "./index.html"
       })
-    ]
+    ],
+    resolve: {
+      alias: {
+        styles: path.resolve(__dirname, 'src/styles/')
+      }
+    }
 }

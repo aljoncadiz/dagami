@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import './Navbar.scss';
 
 export default class Navbar extends Component{
     render(){
         return(
-            <div>
-                this is a navbar
+            <div className="navbar">
+                <p>navbar is working!</p>
             </div>
         )
     }
