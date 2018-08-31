@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './_variables.scss'
-import './_common.scss'
-import './_App.scss'
+import './_App.scss';
+import Navbar from './components/Navbar';
 const App = () => {
   return (
     <div>
-      <p>React here!!!! hot reload test</p>
+      <Navbar/>
+      <p>React here!!!!</p>
     </div>
   );
 };
